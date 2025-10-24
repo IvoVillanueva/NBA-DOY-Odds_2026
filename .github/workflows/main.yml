@@ -20,7 +20,7 @@ jobs:
           r-version: 'release'
           
       - name: Install libcurl and libssl on Linux
-        run: sudo apt-get -y install libcurl4-openssl-dev
+        run: sudo apt-get -y install libcurl4-openssl-dev 
         shell: bash
         
       - name: Cache CRAN packages
