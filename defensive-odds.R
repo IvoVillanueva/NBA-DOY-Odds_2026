@@ -7,7 +7,7 @@ today <- Sys.Date()
 # ensure data output folder exists
 if (!dir.exists("data")) dir.create("data")
 
-# url for getting mvp odds from rotowire
+# url for getting doy odds from rotowire
 url <- "https://www.rotowire.com/betting/nba/tables/player-futures.php?future=Defensive%20Player"
 
 # get data
