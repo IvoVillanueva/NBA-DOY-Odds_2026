@@ -32,4 +32,4 @@ Los datos se almacenan en formato CSV mediante un flujo automatizado de **GitHub
 
 data/defensive_odds_2026_10_24.csv
 
-Cada archivo contiene las cuotas del ROY en el momento en que fueron extraídas, junto con la fecha y hora correspondientes.
+Cada archivo contiene las cuotas del ROY en el momento en que fueron extraídas, junto con la fecha correspondientes.
