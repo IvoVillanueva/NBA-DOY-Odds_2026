@@ -1,13 +1,13 @@
 # 🏀 Rotowire NBA DOY Archivo de Cuotas
 
-Este repositorio **recopila y archiva automáticamente las cuotas diarias del Rookie of the Year (ROY)** de la NBA publicadas por [RotoWire](https://www.rotowire.com/betting/nba/defensive-player-odds.php).  
+Este repositorio **recopila y archiva automáticamente las cuotas diarias del Defensive Player of the Year (DOY)** de la NBA publicadas por [RotoWire](https://www.rotowire.com/betting/nba/defensive-player-odds.php).  
 Los datos se almacenan en formato CSV mediante un flujo automatizado de **GitHub Actions**.
 
 ---
 
 ## 📋 Qué hace este repositorio
 
-- Ejecuta un script en R (`defensive-odds.R`) que extrae las cuotas del ROY desde RotoWire.  
+- Ejecuta un script en R (`defensive-odds.R`) que extrae las cuotas del DOY desde RotoWire.  
 - Añade una **marca temporal** para saber cuándo se obtuvieron los datos.  
 - Guarda los resultados como un **archivo CSV con fecha** dentro de la carpeta `data/`.  
 - Se ejecuta **a diario** y también **bajo demanda** mediante GitHub Actions.  
